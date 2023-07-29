@@ -1,4 +1,3 @@
-
 export default class Pricing {
   constructor(amount, currency) {
     this._amount = amount;
@@ -27,6 +26,5 @@ export default class Pricing {
 
   static convertPrice(amount, conversionRate) {
     return (amount * conversionRate);
- 
- }
+  }
 }

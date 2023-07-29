@@ -1,4 +1,3 @@
-
 export default class HolbertonClass {
   constructor(size, location) {
     this._size = size;
@@ -11,6 +10,5 @@ export default class HolbertonClass {
 
   toString() {
     return this._location;
- 
- }
+  }
 }
